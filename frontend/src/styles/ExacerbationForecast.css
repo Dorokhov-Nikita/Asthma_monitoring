@@ -1,0 +1,1059 @@
+@import './SharedStyles.css';
+
+/* Додаткові правила для вимкнення скролбарів на батьківських елементах */
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  max-width: 100vw !important;
+}
+
+html.no-scroll, body.no-scroll {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  max-width: 100vw !important;
+}
+
+:root {
+  overflow-x: hidden !important;
+}
+
+#root {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  max-width: 100vw !important;
+}
+
+/* Глобальне виправлення для скролбару */
+.exacerbation-forecast-container {
+  min-height: 100vh;
+  background-color: var(--very-light-blue);
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+.exacerbation-content {
+  max-width: 1400px;
+  margin: 80px auto 0;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 2px 12px rgba(100, 181, 246, 0.2);
+  overflow-x: hidden;
+  width: auto;
+  box-sizing: border-box;
+  min-height: calc(100vh - 80px);
+}
+
+.exacerbation-forecast-container h2 {
+  font-size: 28px;
+  color: var(--dark-blue);
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.error-message {
+  background-color: #fff8e1;
+  color: #856404;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #ffecb5;
+  border-left: 3px solid #ffc107;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Record navigation */
+.record-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #bbdefb;
+}
+
+.exacerbation-nav-button {
+  background-color: var(--light-blue);
+  border: 1px solid #b3e5fc;
+  border-radius: 6px;
+  padding: 10px 18px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--dark-blue);
+  font-weight: 500;
+}
+
+.exacerbation-nav-button:hover:not(:disabled) {
+  background-color: #b3e5fc;
+  border-color: var(--primary-blue);
+}
+
+.exacerbation-nav-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.record-info {
+  font-size: 14px;
+  color: #444;
+  background-color: #b3e5fc;
+  padding: 8px 16px;
+  border-radius: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+/* Health record table */
+.record-table-container {
+  margin-bottom: 30px;
+  overflow-x: auto;
+  box-shadow: 0 2px 10px rgba(100, 181, 246, 0.15);
+  border-radius: 8px;
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+  touch-action: pan-x; /* Enable horizontal touch scrolling */
+  overscroll-behavior-x: none; /* Prevent horizontal overscroll */
+  width: 100%; /* Ensure it takes full width */
+  display: block; /* Force block display to contain scrolling */
+  max-width: 100%; /* Ensure it doesn't overflow parent */
+  position: relative;
+  isolation: isolate; /* Create a new stacking context */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: rgba(100, 181, 246, 0.5) transparent; /* For Firefox */
+  border: 1px solid #e3f2fd; /* Add subtle border */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Important fix: Contain scrolling only in the table container */
+.record-table-container:only-child {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Clearer scrollbar styles */
+.record-table-container::-webkit-scrollbar {
+  height: 8px;
+  background-color: #f5f9ff;
+}
+
+.record-table-container::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f5f9ff;
+}
+
+.record-table-container::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 181, 246, 0.7);
+  border-radius: 10px;
+  border: 2px solid #f5f9ff;
+}
+
+/* Health record table */
+.health-record-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0;
+  white-space: nowrap;
+  background-color: white;
+  table-layout: fixed;
+  min-width: 750px; /* Забезпечуємо мінімальну ширину для горизонтального скролу */
+}
+
+.health-record-table th, 
+.health-record-table td {
+  padding: 14px 16px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #bbdefb;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 120px; /* Default max width for cells */
+}
+
+/* Make the medicine column wider by default */
+.health-record-table th:last-child, 
+.health-record-table td:last-child {
+  min-width: 100px;
+  max-width: 160px;
+}
+
+.health-record-table th {
+  background-color: var(--primary-blue);
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.health-record-table th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.health-record-table th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.health-record-table tbody tr:hover {
+  background-color: #e3f2fd;
+}
+
+/* Forecast controls */
+.forecast-controls {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.forecast-button {
+  background-color: var(--primary-blue);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 36px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(100, 181, 246, 0.35);
+}
+
+.forecast-button:hover:not(:disabled) {
+  background-color: var(--btn-hover);
+  box-shadow: 0 4px 12px rgba(100, 181, 246, 0.5);
+  transform: translateY(-2px);
+}
+
+.forecast-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Forecast result */
+.forecast-result {
+  margin: 30px 0;
+}
+
+/* Risk card styles - more subdued colors */
+.risk-card {
+  margin: 20px 0;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #f9f9f9;
+  border-left: 4px solid #ccc;
+}
+
+.risk-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.low-risk {
+  background-color: #f5f9f5;
+  border-left: 4px solid #81c784;
+}
+
+.moderate-risk {
+  background-color: #fdf8f1;
+  border-left: 4px solid #ffb74d;
+}
+
+.high-risk {
+  background-color: #fdf5f5;
+  border-left: 4px solid #e57373;
+}
+
+.risk-title {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.risk-probability {
+  font-size: 1.1rem;
+  margin: 15px 0;
+}
+
+.risk-description {
+  margin: 15px 0;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Recommendations - better readability */
+.recommendations {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.recommendations h4 {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.recommendations ul {
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+
+.recommendations li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Navigation links */
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #bbdefb;
+}
+
+.navigation-links a {
+  color: var(--dark-blue);
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 16px;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  background-color: var(--light-blue);
+  font-weight: 500;
+}
+
+.navigation-links a:hover {
+  background-color: var(--primary-blue);
+  color: white;
+  text-decoration: none;
+}
+
+/* No records message */
+.no-records-message {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 30px;
+  box-shadow: 0 2px 10px rgba(100, 181, 246, 0.15);
+}
+
+.no-records-message p {
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 16px;
+}
+
+.no-records-message a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: var(--primary-blue);
+  padding: 12px 24px;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.no-records-message a:hover {
+  background-color: var(--btn-hover);
+  box-shadow: 0 4px 12px rgba(100, 181, 246, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .exacerbation-forecast-container.sidebar-open {
+    padding-left: 0;
+  }
+  
+  .exacerbation-content {
+    margin: 80px 15px 30px;
+  }
+  
+  .feature-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  /* Apply no-scroll class to body to prevent unwanted scrolling */
+  body.no-scroll {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  /* Main content container must be properly constrained */
+  .exacerbation-content {
+    margin-top: 0;
+    padding: 20px 15px;
+    overflow-x: hidden !important; /* Force hide horizontal overflow */
+    max-width: 100%;
+    width: auto;
+    box-sizing: border-box;
+  }
+  
+  /* Table scrolling container should be the only scrollable element */
+  .record-table-container {
+    overflow-x: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 30px 0;
+    border-radius: 8px;
+    border: 1px solid #e3f2fd;
+  }
+  
+  /* Table needs to be wider than container to enable scrolling */
+  .health-record-table {
+    min-width: 800px;
+    width: 800px;
+    table-layout: fixed;
+  }
+  
+  /* Table needs to be wider than container to enable scrolling */
+  .health-record-table th, 
+  .health-record-table td {
+    padding: 10px 8px;
+    font-size: 0.9rem;
+  }
+  
+  /* Make medicine column wider on mobile */
+  .health-record-table th:last-child, 
+  .health-record-table td:last-child {
+    min-width: 100px;
+    width: 150px;
+    max-width: 150px;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  
+  /* Add scroll hint */
+  .record-table-container::after {
+    content: '← прокрутіть таблицю →';
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    color: #777;
+    font-size: 12px;
+    background-color: #f5f9ff;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  /* Make sure all other content is properly contained */
+  .forecast-controls,
+  .forecast-result,
+  .forecast-actions,
+  .admin-model-info {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+  
+  .record-navigation {
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .record-info {
+    font-size: 14px;
+    padding: 8px 10px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    white-space: normal;
+    overflow: hidden;
+  }
+  
+  .navigation-links {
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+  }
+  
+  .forecast-controls {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+    position: relative;
+    flex: 0 0 auto;
+    width: 100%;
+    clear: both;
+  }
+  
+  .forecast-button {
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .risk-card {
+    padding: 20px 15px;
+  }
+  
+  .feature-grid {
+    flex-wrap: nowrap;
+    padding-bottom: 15px;
+    margin: 15px -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: flex-start;
+    overflow-x: auto; /* Allow horizontal scroll only for features */
+    -webkit-overflow-scrolling: touch;
+    max-width: 100vw;
+    width: auto;
+    box-sizing: border-box;
+  }
+  
+  .feature-card {
+    min-width: 150px;
+    width: auto;
+    margin-right: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .exacerbation-forecast-container {
+    padding-top: 60px; /* Match the top-bar height on mobile */
+    overflow-x: hidden !important; /* Force hide horizontal overflow */
+  }
+  
+  .exacerbation-content {
+    margin-top: 0; /* Remove margin as we now use padding-top on container */
+    padding: 15px 10px;
+    overflow-x: hidden !important; /* Force hide horizontal overflow */
+  }
+  
+  .record-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 10px 8px;
+    white-space: normal;
+    border-radius: 15px;
+    box-sizing: border-box;
+  }
+  
+  .exacerbation-nav-button {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+  }
+  
+  .health-record-table {
+    min-width: 700px;
+  }
+  
+  .health-record-table th, 
+  .health-record-table td {
+    padding: 8px 6px;
+    font-size: 0.85rem;
+    max-width: 60px; /* Smaller max width on mobile */
+  }
+  
+  .forecast-button {
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+  
+  .risk-title {
+    font-size: 1.2rem;
+  }
+  
+  .risk-probability {
+    font-size: 1rem;
+  }
+  
+  .feature-card {
+    padding: 15px;
+    min-height: auto;
+  }
+  
+  .feature-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    margin-right: 15px;
+  }
+  
+  /* Make sure the feature grid items have enough space for touch */
+  .feature-card {
+    margin-bottom: 10px;
+    min-height: 80px; /* Ensure enough touch area */
+  }
+  
+  /* Make medicine column even wider on small mobile screens */
+  .health-record-table th:last-child, 
+  .health-record-table td:last-child {
+    min-width: 120px;
+    width: 180px;
+    max-width: 180px;
+  }
+}
+
+/* Any custom styles specific to ExacerbationForecast would go here */
+
+/* Prediction timestamp - more visible */
+.prediction-timestamp {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 15px;
+  text-align: right;
+  font-style: italic;
+}
+
+/* Probability meter styles - more subdued */
+.probability-meter {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.probability-label {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.probability-bar-container {
+  position: relative;
+  height: 22px;
+  background-color: #eee;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+}
+
+.probability-bar {
+  height: 100%;
+  border-radius: 20px;
+  transition: width 0.5s ease-out;
+  opacity: 0.85;
+}
+
+.probability-value {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 700;
+  color: #333;
+  text-shadow: none;
+}
+
+/* Updated critical features visualization - more subtle */
+.critical-features {
+  margin: 25px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.critical-features h4 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 15px 0;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 12px;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  justify-content: space-between;
+}
+
+.feature-card {
+  width: 19%;
+  min-width: 160px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 12px 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #333;
+  opacity: 0.7;
+}
+
+.feature-details {
+  flex-grow: 1;
+}
+
+.feature-name {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+
+.feature-value {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.feature-influence {
+  height: 6px;
+  background-color: #eee;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.influence-bar {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+  opacity: 0.8;
+}
+
+/* Remove old feature styles that are no longer needed */
+.factors-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.factors-list li {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-bar {
+  height: 8px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+
+/* Model metrics styles */
+.model-metrics h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.metric-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eaeaea;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.metric-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.metric-title {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.metric-value {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Chart container styles */
+.training-charts {
+  margin-top: 30px;
+}
+
+.training-charts h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.chart-container {
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eaeaea;
+}
+
+.chart-container h4 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Model insights styles */
+.model-insights, .model-recommendations {
+  margin-top: 25px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eaeaea;
+}
+
+.model-insights h4, .model-recommendations h4 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.model-insights ul, .model-recommendations ul {
+  padding-left: 20px;
+}
+
+.model-insights li, .model-recommendations li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.admin-section-header {
+  text-align: center;
+  font-size: 22px;
+  color: #444;
+  margin: 25px 0 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #6d4c9f;
+  font-weight: 600;
+}
+
+/* Info section styles */
+.info-section {
+  background-color: #f3f9ff;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-blue);
+  box-shadow: 0 2px 8px rgba(100, 181, 246, 0.15);
+}
+
+.info-section h3 {
+  color: var(--dark-blue);
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.info-section p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.info-section .instructions {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+  margin: 15px 0;
+  border: 1px solid #e3f2fd;
+}
+
+.info-section .instructions h4 {
+  color: var(--dark-blue);
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.info-section .instructions ol {
+  padding-left: 25px;
+  margin-bottom: 0;
+}
+
+.info-section .instructions li {
+  margin-bottom: 8px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.info-section .note {
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+  padding: 10px;
+  background-color: rgba(255, 255, 220, 0.5);
+  border-radius: 4px;
+  margin-top: 15px;
+}
+/* Додаємо стилі для зображення SHAP */
+.shap-visualization {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.shap-visualization h3 {
+  font-size: 1.5rem;
+  color: var(--dark-blue);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.shap-visualization p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.shap-plot-container {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.shap-plot-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Ensure forecast results appear properly below the table */
+.forecast-result {
+  clear: both;
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Apply no-scroll class to body to prevent unwanted scrolling */
+body.no-scroll {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+/* Empty record warning */
+.empty-record-warning {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin: 20px 0 30px;
+  box-shadow: 0 2px 10px rgba(100, 181, 246, 0.15);
+  border-left: 4px solid #ffc107;
+}
+
+.empty-record-warning p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 16px;
+}
+
+.empty-record-warning .empty-record-action {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: var(--primary-blue);
+  padding: 12px 24px;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.empty-record-warning .empty-record-action:hover {
+  background-color: var(--btn-hover);
+  box-shadow: 0 4px 12px rgba(100, 181, 246, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Mobile styles for empty record warning */
+@media (max-width: 768px) {
+  .empty-record-warning {
+    padding: 20px 15px;
+    margin: 15px 0 25px;
+  }
+  
+  .empty-record-warning p {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .empty-record-warning .empty-record-action {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+

@@ -1,0 +1,1361 @@
+
+
+===== PREDICTION START: user_id=29, record_id=33, time=2025-05-18 00:17:28.544694 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.996021
+Neural network prediction successful: 99.6%
+Final risk level: High, score: 99.6%
+FINAL: Returning prediction with risk score: 99.6%, method: neural_network
+===== PREDICTION END: time=2025-05-18 00:17:28.802108 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-18 00:17:31.947059 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.998707
+Neural network prediction successful: 99.9%
+Final risk level: High, score: 99.9%
+FINAL: Returning prediction with risk score: 99.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 00:17:32.052579 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=22, time=2025-05-18 00:17:37.733521 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.999999
+Neural network prediction successful: 100.0%
+Final risk level: High, score: 100.0%
+FINAL: Returning prediction with risk score: 100.0%, method: neural_network
+===== PREDICTION END: time=2025-05-18 00:17:37.844544 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 00:17:43.580242 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.998926
+Neural network prediction successful: 99.9%
+Final risk level: High, score: 99.9%
+FINAL: Returning prediction with risk score: 99.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 00:17:43.685319 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 00:17:44.135492 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.998926
+Neural network prediction successful: 99.9%
+Final risk level: High, score: 99.9%
+FINAL: Returning prediction with risk score: 99.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 00:17:44.234514 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-18 00:40:31.072836 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.999523
+Neural network prediction successful: 100.0%
+Final risk level: High, score: 100.0%
+FINAL: Returning prediction with risk score: 100.0%, method: neural_network
+===== PREDICTION END: time=2025-05-18 00:40:31.185624 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=33, time=2025-05-18 00:40:40.134972 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.997541
+Neural network prediction successful: 99.8%
+Final risk level: High, score: 99.8%
+FINAL: Returning prediction with risk score: 99.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 00:40:40.260000 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 00:40:43.869138 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.162873
+Neural network prediction successful: 16.3%
+Final risk level: Low, score: 16.3%
+FINAL: Returning prediction with risk score: 16.3%, method: neural_network
+===== PREDICTION END: time=2025-05-18 00:40:43.968147 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 00:50:17.861505 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.993731
+Neural network prediction successful: 99.4%
+Final risk level: High, score: 99.4%
+FINAL: Returning prediction with risk score: 99.4%, method: neural_network
+===== PREDICTION END: time=2025-05-18 00:50:17.968531 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 00:51:02.704128 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.995965
+Neural network prediction successful: 99.6%
+Final risk level: High, score: 99.6%
+FINAL: Returning prediction with risk score: 99.6%, method: neural_network
+===== PREDICTION END: time=2025-05-18 00:51:02.812151 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 00:51:17.188054 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.993634
+Neural network prediction successful: 99.4%
+Final risk level: High, score: 99.4%
+FINAL: Returning prediction with risk score: 99.4%, method: neural_network
+===== PREDICTION END: time=2025-05-18 00:51:17.288044 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 01:17:30.776237 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.998876
+Neural network prediction successful: 99.9%
+Final risk level: High, score: 99.9%
+FINAL: Returning prediction with risk score: 99.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 01:17:30.887310 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-18 01:17:37.310672 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.999853
+Neural network prediction successful: 100.0%
+Final risk level: High, score: 100.0%
+FINAL: Returning prediction with risk score: 100.0%, method: neural_network
+===== PREDICTION END: time=2025-05-18 01:17:37.411776 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 01:17:42.776256 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.991992
+Neural network prediction successful: 99.2%
+Final risk level: High, score: 99.2%
+FINAL: Returning prediction with risk score: 99.2%, method: neural_network
+===== PREDICTION END: time=2025-05-18 01:17:42.890282 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 01:17:46.440148 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.471834
+Neural network prediction successful: 47.2%
+Final risk level: Medium, score: 47.2%
+FINAL: Returning prediction with risk score: 47.2%, method: neural_network
+===== PREDICTION END: time=2025-05-18 01:17:46.549172 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 02:04:51.453054 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.913370
+Neural network prediction successful: 91.3%
+Final risk level: High, score: 91.3%
+FINAL: Returning prediction with risk score: 91.3%, method: neural_network
+===== PREDICTION END: time=2025-05-18 02:04:51.678107 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-18 02:04:55.656213 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.959377
+Neural network prediction successful: 95.9%
+Final risk level: High, score: 95.9%
+FINAL: Returning prediction with risk score: 95.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 02:04:55.830254 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 02:05:05.751275 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.467887
+Neural network prediction successful: 46.8%
+Final risk level: Medium, score: 46.8%
+FINAL: Returning prediction with risk score: 46.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 02:05:05.962322 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 02:05:11.019245 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.940715
+Neural network prediction successful: 94.1%
+Final risk level: High, score: 94.1%
+FINAL: Returning prediction with risk score: 94.1%, method: neural_network
+===== PREDICTION END: time=2025-05-18 02:05:11.189274 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 02:25:16.168869 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.991768
+Neural network prediction successful: 99.2%
+Final risk level: High, score: 99.2%
+FINAL: Returning prediction with risk score: 99.2%, method: neural_network
+===== PREDICTION END: time=2025-05-18 02:25:16.377920 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-18 02:25:19.569613 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.997623
+Neural network prediction successful: 99.8%
+Final risk level: High, score: 99.8%
+FINAL: Returning prediction with risk score: 99.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 02:25:19.788063 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 02:25:25.613606 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.988450
+Neural network prediction successful: 98.8%
+Final risk level: High, score: 98.8%
+FINAL: Returning prediction with risk score: 98.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 02:25:25.899199 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 02:25:29.263300 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.496570
+Neural network prediction successful: 49.7%
+Final risk level: Medium, score: 49.7%
+FINAL: Returning prediction with risk score: 49.7%, method: neural_network
+===== PREDICTION END: time=2025-05-18 02:25:29.460121 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 03:19:32.925368 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.907612
+Neural network prediction successful: 90.8%
+Final risk level: High, score: 90.8%
+Using rule-based approach for feature importance
+FINAL: Returning prediction with risk score: 90.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:19:33.752004 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-18 03:20:18.797252 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.969331
+Neural network prediction successful: 96.9%
+Final risk level: High, score: 96.9%
+Using rule-based approach for feature importance
+FINAL: Returning prediction with risk score: 96.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:20:19.187333 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 03:20:26.635994 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.074003
+Neural network prediction successful: 7.4%
+Final risk level: Low, score: 7.4%
+Using rule-based approach for feature importance
+FINAL: Returning prediction with risk score: 7.4%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:20:27.024806 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 03:26:21.178985 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.907612
+Neural network prediction successful: 90.8%
+Final risk level: High, score: 90.8%
+Using rule-based approach for feature importance
+FINAL: Returning prediction with risk score: 90.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:26:22.177833 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 03:26:29.291359 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.074003
+Neural network prediction successful: 7.4%
+Final risk level: Low, score: 7.4%
+Using rule-based approach for feature importance
+FINAL: Returning prediction with risk score: 7.4%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:26:29.670713 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 03:34:23.269641 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.907612
+Neural network prediction successful: 90.8%
+Final risk level: High, score: 90.8%
+Using rule-based approach for feature importance
+FINAL: Returning prediction with risk score: 90.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:34:24.190804 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 03:37:29.547210 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.907612
+Neural network prediction successful: 90.8%
+Final risk level: High, score: 90.8%
+Using rule-based approach for feature importance
+FINAL: Returning prediction with risk score: 90.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:37:30.275762 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 03:39:12.289453 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.907612
+SHAP analysis performed successfully
+Neural network prediction successful: 90.8%
+Final risk level: High, score: 90.8%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 90.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:39:13.115662 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-18 03:41:48.263757 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.969331
+SHAP analysis performed successfully
+Neural network prediction successful: 96.9%
+Final risk level: High, score: 96.9%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 96.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:41:48.879895 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=33, time=2025-05-18 03:41:51.665128 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.978187
+SHAP analysis performed successfully
+Neural network prediction successful: 97.8%
+Final risk level: High, score: 97.8%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 97.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:41:52.065703 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=23, time=2025-05-18 03:41:54.931151 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.998123
+SHAP analysis performed successfully
+Neural network prediction successful: 99.8%
+Final risk level: High, score: 99.8%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 99.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:41:55.291201 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 03:42:00.778342 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.957023
+SHAP analysis performed successfully
+Neural network prediction successful: 95.7%
+Final risk level: High, score: 95.7%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 95.7%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:42:01.142128 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 03:42:03.551142 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.074003
+SHAP analysis performed successfully
+Neural network prediction successful: 7.4%
+Final risk level: Low, score: 7.4%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 7.4%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:42:03.920812 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 03:58:56.610752 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.907612
+SHAP analysis performed successfully
+Neural network prediction successful: 90.8%
+Final risk level: High, score: 90.8%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 90.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:58:56.994838 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 03:59:02.106214 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.074003
+SHAP analysis performed successfully
+Neural network prediction successful: 7.4%
+Final risk level: Low, score: 7.4%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 7.4%, method: neural_network
+===== PREDICTION END: time=2025-05-18 03:59:02.473289 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=22, time=2025-05-18 04:03:56.113731 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.999777
+SHAP analysis performed successfully
+Neural network prediction successful: 100.0%
+Final risk level: High, score: 100.0%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 100.0%, method: neural_network
+===== PREDICTION END: time=2025-05-18 04:03:56.499817 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 04:03:59.674168 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.957023
+SHAP analysis performed successfully
+Neural network prediction successful: 95.7%
+Final risk level: High, score: 95.7%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 95.7%, method: neural_network
+===== PREDICTION END: time=2025-05-18 04:04:00.056248 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 11:31:32.968780 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.677479
+SHAP analysis performed successfully
+Neural network prediction successful: 67.7%
+Final risk level: Medium, score: 67.7%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 67.7%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:31:35.286818 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-18 11:31:38.897224 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.925169
+SHAP analysis performed successfully
+Neural network prediction successful: 92.5%
+Final risk level: High, score: 92.5%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 92.5%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:31:39.358889 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=33, time=2025-05-18 11:31:49.054157 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.974209
+SHAP analysis performed successfully
+Neural network prediction successful: 97.4%
+Final risk level: High, score: 97.4%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 97.4%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:31:49.449473 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=23, time=2025-05-18 11:32:02.538284 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.997845
+SHAP analysis performed successfully
+Neural network prediction successful: 99.8%
+Final risk level: High, score: 99.8%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 99.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:32:02.944309 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 11:32:12.118934 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.210421
+SHAP analysis performed successfully
+Neural network prediction successful: 21.0%
+Final risk level: Low, score: 21.0%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 21.0%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:32:12.518798 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 11:40:48.136821 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.835642
+SHAP analysis performed successfully
+Neural network prediction successful: 83.6%
+Final risk level: High, score: 83.6%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 83.6%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:40:49.613062 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 11:40:55.851120 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.138134
+SHAP analysis performed successfully
+Neural network prediction successful: 13.8%
+Final risk level: Low, score: 13.8%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 13.8%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:40:56.553002 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 11:41:00.544649 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.913770
+SHAP analysis performed successfully
+Neural network prediction successful: 91.4%
+Final risk level: High, score: 91.4%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 91.4%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:41:01.153107 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 11:42:49.500351 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.922081
+SHAP analysis performed successfully
+Neural network prediction successful: 92.2%
+Final risk level: High, score: 92.2%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 92.2%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:42:50.140477 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 11:42:54.318201 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.510591
+SHAP analysis performed successfully
+Neural network prediction successful: 51.1%
+Final risk level: Medium, score: 51.1%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 51.1%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:42:55.054467 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 11:46:04.121234 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.926798
+SHAP analysis performed successfully
+Neural network prediction successful: 92.7%
+Final risk level: High, score: 92.7%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 92.7%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:46:05.452349 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 11:46:16.466264 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.108972
+SHAP analysis performed successfully
+Neural network prediction successful: 10.9%
+Final risk level: Low, score: 10.9%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 10.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:46:17.176426 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 11:46:28.772008 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.782069
+SHAP analysis performed successfully
+Neural network prediction successful: 78.2%
+Final risk level: High, score: 78.2%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 78.2%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:46:29.750228 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 11:46:41.028205 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.036925
+SHAP analysis performed successfully
+Neural network prediction successful: 3.7%
+Final risk level: Low, score: 3.7%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 3.7%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:46:41.702301 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 11:46:45.135182 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.583666
+SHAP analysis performed successfully
+Neural network prediction successful: 58.4%
+Final risk level: Medium, score: 58.4%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 58.4%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:46:45.772326 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 11:50:49.974141 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.959692
+SHAP analysis performed successfully
+Neural network prediction successful: 96.0%
+Final risk level: High, score: 96.0%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 96.0%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:50:51.340748 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 11:50:56.258902 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.282995
+SHAP analysis performed successfully
+Neural network prediction successful: 28.3%
+Final risk level: Low, score: 28.3%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 28.3%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:50:56.978289 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 11:50:59.388215 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.960060
+SHAP analysis performed successfully
+Neural network prediction successful: 96.0%
+Final risk level: High, score: 96.0%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 96.0%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:51:00.116188 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 11:53:45.295823 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.894853
+SHAP analysis performed successfully
+Neural network prediction successful: 89.5%
+Final risk level: High, score: 89.5%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 89.5%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:53:46.656295 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 11:53:56.364638 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.188853
+SHAP analysis performed successfully
+Neural network prediction successful: 18.9%
+Final risk level: Low, score: 18.9%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 18.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:53:57.052794 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 11:53:59.306183 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.905630
+SHAP analysis performed successfully
+Neural network prediction successful: 90.6%
+Final risk level: High, score: 90.6%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 90.6%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:53:59.860308 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 11:54:42.206563 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.789238
+SHAP analysis performed successfully
+Neural network prediction successful: 78.9%
+Final risk level: High, score: 78.9%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 78.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:54:42.880698 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-18 11:54:46.366563 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.913908
+SHAP analysis performed successfully
+Neural network prediction successful: 91.4%
+Final risk level: High, score: 91.4%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 91.4%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:54:47.148003 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 11:54:51.915063 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.652504
+SHAP analysis performed successfully
+Neural network prediction successful: 65.3%
+Final risk level: Medium, score: 65.3%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 65.3%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:54:52.549189 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 11:54:55.461804 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.904522
+SHAP analysis performed successfully
+Neural network prediction successful: 90.5%
+Final risk level: High, score: 90.5%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 90.5%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:54:56.164897 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 11:55:02.735382 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.789238
+SHAP analysis performed successfully
+Neural network prediction successful: 78.9%
+Final risk level: High, score: 78.9%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 78.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:55:03.554729 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 11:56:13.676919 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.870560
+SHAP analysis performed successfully
+Neural network prediction successful: 87.1%
+Final risk level: High, score: 87.1%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 87.1%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:56:14.528279 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 11:56:19.600205 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.334275
+SHAP analysis performed successfully
+Neural network prediction successful: 33.4%
+Final risk level: Low, score: 33.4%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 33.4%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:56:20.317368 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 11:56:23.477427 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.903608
+SHAP analysis performed successfully
+Neural network prediction successful: 90.4%
+Final risk level: High, score: 90.4%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 90.4%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:56:24.148596 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 11:58:15.002955 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.918971
+SHAP analysis performed successfully
+Neural network prediction successful: 91.9%
+Final risk level: High, score: 91.9%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 91.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:58:16.344487 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 11:58:23.196162 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.488928
+SHAP analysis performed successfully
+Neural network prediction successful: 48.9%
+Final risk level: Medium, score: 48.9%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 48.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:58:23.836308 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 11:58:26.917036 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.915392
+SHAP analysis performed successfully
+Neural network prediction successful: 91.5%
+Final risk level: High, score: 91.5%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 91.5%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:58:27.464892 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 11:58:39.680677 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.791098
+SHAP analysis performed successfully
+Neural network prediction successful: 79.1%
+Final risk level: High, score: 79.1%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 79.1%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:58:40.412825 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 11:58:46.255843 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.103266
+SHAP analysis performed successfully
+Neural network prediction successful: 10.3%
+Final risk level: Low, score: 10.3%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 10.3%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:58:46.994993 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=21, time=2025-05-18 11:58:49.439626 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.882671
+SHAP analysis performed successfully
+Neural network prediction successful: 88.3%
+Final risk level: High, score: 88.3%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 88.3%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:58:50.145039 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-18 11:59:02.638041 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.911456
+SHAP analysis performed successfully
+Neural network prediction successful: 91.1%
+Final risk level: High, score: 91.1%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 91.1%, method: neural_network
+===== PREDICTION END: time=2025-05-18 11:59:03.454209 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 12:00:06.417797 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.878842
+SHAP analysis performed successfully
+Neural network prediction successful: 87.9%
+Final risk level: High, score: 87.9%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 87.9%, method: neural_network
+===== PREDICTION END: time=2025-05-18 12:00:07.254873 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 12:00:12.227514 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.509538
+SHAP analysis performed successfully
+Neural network prediction successful: 51.0%
+Final risk level: Medium, score: 51.0%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 51.0%, method: neural_network
+===== PREDICTION END: time=2025-05-18 12:00:12.972915 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 12:06:37.276856 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.806001
+SHAP analysis performed successfully
+Neural network prediction successful: 80.6%
+Final risk level: High, score: 80.6%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 80.6%, method: neural_network
+===== PREDICTION END: time=2025-05-18 12:06:38.848460 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 12:06:46.942615 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.559622
+SHAP analysis performed successfully
+Neural network prediction successful: 56.0%
+Final risk level: Medium, score: 56.0%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 56.0%, method: neural_network
+===== PREDICTION END: time=2025-05-18 12:06:47.604686 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-18 12:21:54.652403 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.675918
+SHAP analysis performed successfully
+Neural network prediction successful: 67.6%
+Final risk level: Medium, score: 67.6%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 67.6%, method: neural_network
+===== PREDICTION END: time=2025-05-18 12:21:55.940696 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-18 12:21:58.942326 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.781670
+SHAP analysis performed successfully
+Neural network prediction successful: 78.2%
+Final risk level: High, score: 78.2%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 78.2%, method: neural_network
+===== PREDICTION END: time=2025-05-18 12:21:59.572456 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-18 12:22:03.799894 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.221402
+SHAP analysis performed successfully
+Neural network prediction successful: 22.1%
+Final risk level: Low, score: 22.1%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 22.1%, method: neural_network
+===== PREDICTION END: time=2025-05-18 12:22:04.485383 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=23, time=2025-05-18 12:22:49.656216 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.980402
+SHAP analysis performed successfully
+Neural network prediction successful: 98.0%
+Final risk level: High, score: 98.0%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 98.0%, method: neural_network
+===== PREDICTION END: time=2025-05-18 12:22:50.395519 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=33, time=2025-05-18 12:22:55.124123 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.750195
+SHAP analysis performed successfully
+Neural network prediction successful: 75.0%
+Final risk level: High, score: 75.0%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 75.0%, method: neural_network
+===== PREDICTION END: time=2025-05-18 12:22:55.701254 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-18 20:08:13.385932 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.781670
+SHAP analysis performed successfully
+Neural network prediction successful: 78.2%
+Final risk level: High, score: 78.2%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 78.2%, method: neural_network
+===== PREDICTION END: time=2025-05-18 20:08:15.429114 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=33, time=2025-05-18 20:08:36.190280 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.750195
+SHAP analysis performed successfully
+Neural network prediction successful: 75.0%
+Final risk level: High, score: 75.0%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 75.0%, method: neural_network
+===== PREDICTION END: time=2025-05-18 20:08:36.879566 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-19 12:20:52.636860 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.796287
+SHAP analysis performed successfully
+Neural network prediction successful: 79.6%
+Final risk level: High, score: 79.6%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 79.6%, method: neural_network
+===== PREDICTION END: time=2025-05-19 12:20:56.345802 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-19 12:22:09.756296 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.792528
+SHAP analysis performed successfully
+Neural network prediction successful: 79.3%
+Final risk level: High, score: 79.3%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 79.3%, method: neural_network
+===== PREDICTION END: time=2025-05-19 12:22:10.568466 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-19 12:22:59.225636 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.802501
+SHAP analysis performed successfully
+Neural network prediction successful: 80.3%
+Final risk level: High, score: 80.3%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 80.3%, method: neural_network
+===== PREDICTION END: time=2025-05-19 12:23:00.118024 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-19 12:24:00.550142 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.221402
+SHAP analysis performed successfully
+Neural network prediction successful: 22.1%
+Final risk level: Low, score: 22.1%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 22.1%, method: neural_network
+===== PREDICTION END: time=2025-05-19 12:24:01.160144 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=40, time=2025-05-19 12:24:46.468163 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.636467
+SHAP analysis performed successfully
+Neural network prediction successful: 63.6%
+Final risk level: Medium, score: 63.6%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 63.6%, method: neural_network
+===== PREDICTION END: time=2025-05-19 12:24:47.102992 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=44, time=2025-05-19 12:38:59.703184 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.636467
+SHAP analysis performed successfully
+Neural network prediction successful: 63.6%
+Final risk level: Medium, score: 63.6%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 63.6%, method: neural_network
+===== PREDICTION END: time=2025-05-19 12:39:00.882448 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-19 12:39:08.688517 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.802501
+SHAP analysis performed successfully
+Neural network prediction successful: 80.3%
+Final risk level: High, score: 80.3%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 80.3%, method: neural_network
+===== PREDICTION END: time=2025-05-19 12:39:09.318660 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-19 12:39:16.836428 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.221402
+SHAP analysis performed successfully
+Neural network prediction successful: 22.1%
+Final risk level: Low, score: 22.1%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 22.1%, method: neural_network
+===== PREDICTION END: time=2025-05-19 12:39:17.571593 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=45, time=2025-05-19 12:43:45.167587 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.636467
+SHAP analysis performed successfully
+Neural network prediction successful: 63.6%
+Final risk level: Medium, score: 63.6%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 63.6%, method: neural_network
+===== PREDICTION END: time=2025-05-19 12:43:45.936761 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-19 12:43:53.043779 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.802501
+SHAP analysis performed successfully
+Neural network prediction successful: 80.3%
+Final risk level: High, score: 80.3%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 80.3%, method: neural_network
+===== PREDICTION END: time=2025-05-19 12:43:53.759939 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-19 12:44:01.228761 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.221402
+SHAP analysis performed successfully
+Neural network prediction successful: 22.1%
+Final risk level: Low, score: 22.1%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 22.1%, method: neural_network
+===== PREDICTION END: time=2025-05-19 12:44:01.940954 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=46, time=2025-05-19 13:01:34.807922 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.636467
+SHAP analysis performed successfully
+Neural network prediction successful: 63.6%
+Final risk level: Medium, score: 63.6%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 63.6%, method: neural_network
+===== PREDICTION END: time=2025-05-19 13:01:35.551088 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=37, time=2025-05-19 13:01:43.377298 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.802501
+SHAP analysis performed successfully
+Neural network prediction successful: 80.3%
+Final risk level: High, score: 80.3%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 80.3%, method: neural_network
+===== PREDICTION END: time=2025-05-19 13:01:44.173477 =====
+
+
+
+===== PREDICTION START: user_id=29, record_id=20, time=2025-05-19 13:01:52.521102 =====
+TensorFlow available: True, MODEL available: True
+Attempting to use neural network for prediction...
+Features array shape: (1, 24)
+Raw prediction probability: 0.221402
+SHAP analysis performed successfully
+Neural network prediction successful: 22.1%
+Final risk level: Low, score: 22.1%
+Using SHAP analysis for feature importance
+FINAL: Returning prediction with risk score: 22.1%, method: neural_network
+===== PREDICTION END: time=2025-05-19 13:01:53.288258 =====
+

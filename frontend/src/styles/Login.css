@@ -1,0 +1,157 @@
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--very-light-blue);
+}
+
+.login-form-group input,
+.login-form-group label {
+  all: initial;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 450px;
+}
+
+h2 {
+  color: #1e90ff;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.login-form-group {
+  position: relative;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+/* Input field styling with !important */
+.login-form-group input {
+  width: 100% !important;
+  padding: 1rem 1.2rem !important;
+  border: 1px solid #ddd !important;
+  border-radius: 8px !important;
+  font-size: 1.2rem !important;
+  font-weight: normal !important;
+  box-sizing: border-box !important;
+  transition: all 0.3s ease !important;
+  background-color: white !important;
+  z-index: 1 !important;
+  position: relative !important;
+  display: block !important;
+  border-bottom: 2px solid #ddd !important;
+}
+
+.login-form-group input:focus {
+  outline: none !important;
+  border-color: #1e90ff !important;
+  box-shadow: 0 0 0 2px rgba(30, 144, 255, 0.1) !important;
+}
+
+/* Floating label styling with !important */
+.login-form-group label {
+  position: absolute !important;
+  left: 1.2rem !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  color: #888 !important;
+  font-size: 1.2rem !important;
+  transition: all 0.3s ease !important;
+  pointer-events: none !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+  z-index: 2 !important;
+  display: block !important;
+}
+
+/* Move label up when input is focused or has content */
+.login-form-group input:focus + label,
+.login-form-group input:not(:placeholder-shown) + label {
+  top: 0 !important;
+  left: 1rem !important;
+  font-size: 0.8rem !important;
+  color: #1e90ff !important;
+  background-color: white !important;
+  padding: 0 0.5rem !important;
+  transform: translateY(-50%) !important;
+  z-index: 3 !important;
+}
+
+.error-message {
+  color: #ff4444;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.login-button {
+  width: 100%;
+  padding: 1.2rem;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1.5rem;
+}
+
+.login-button:hover {
+  background-color: #187bcd;
+}
+
+.signup-link {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.signup-link a {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.password-requirements {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.password-requirements ul {
+  margin: 5px 0 0 20px;
+  padding: 0;
+}
+
+.password-requirements li {
+  margin: 3px 0;
+}
+
+.password-requirements.error-message {
+  color: #dc3545;
+  background-color: #fff;
+  padding: 5px 0;
+  margin: 5px 0;
+  font-size: 0.8rem;
+} 

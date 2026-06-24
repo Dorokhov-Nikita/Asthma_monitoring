@@ -1,0 +1,701 @@
+@import './SharedStyles.css';
+
+.recording-indicators-container {
+    min-height: 100vh;
+    background-color: var(--very-light-blue);
+    transition: margin-left 0.3s ease;
+    padding-top: 80px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.record-content {
+  max-width: 1400px;
+  margin: 0 auto 0;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 2px 12px rgba(100, 181, 246, 0.2);
+  min-height: calc(100vh - 60px);
+}
+
+.record-content h2 {
+  font-size: 28px;
+  color: var(--dark-blue);
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.record-content p {
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(100, 181, 246, 0.15);
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: none; /* Prevent horizontal overscroll */
+  scrollbar-width: thin; /* Для Firefox */
+  scrollbar-color: rgba(100, 181, 246, 0.5) transparent; /* Для Firefox */
+}
+
+/* Стилізація скролбара для Webkit браузерів (Chrome, Safari, Edge) */
+.table-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 181, 246, 0.5);
+  border-radius: 10px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(100, 181, 246, 0.8);
+}
+
+.indicators-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 1200px;
+  table-layout: fixed;
+}
+
+.indicators-table th,
+.indicators-table td {
+  padding: 14px 16px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #bbdefb;
+  touch-action: manipulation;
+  position: relative;
+  z-index: 1;
+}
+
+.indicators-table th {
+  background-color: var(--primary-blue);
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.indicators-table th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.indicators-table th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.indicators-table tr:hover {
+  background-color: #e3f2fd;
+}
+
+.new-record-form {
+  margin-bottom: 2rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(100, 181, 246, 0.2);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  align-items: end;
+}
+
+.form-row input,
+.form-row select {
+  padding: 0.75rem;
+  border: 1px solid #b3e5fc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.form-row input:focus,
+.form-row select:focus {
+  outline: none;
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 3px rgba(100, 181, 246, 0.2);
+}
+
+.form-row input[type="date"] {
+  width: 100%;
+}
+
+.add-record-button,
+.add-row-button,
+.delete-row-button {
+  pointer-events: auto !important;
+  z-index: 10;
+  position: relative;
+  touch-action: manipulation;
+}
+
+.add-record-button,
+.add-row-button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-blue);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer !important;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(100, 181, 246, 0.35);
+  position: relative;
+  z-index: 10;
+  -webkit-tap-highlight-color: rgba(100, 181, 246, 0.5);
+  min-height: 44px; /* Minimum touch target size */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-record-button:hover,
+.add-row-button:hover {
+  background-color: var(--btn-hover);
+  box-shadow: 0 4px 12px rgba(100, 181, 246, 0.5);
+  transform: translateY(-2px);
+}
+
+.editing-row input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #b3e5fc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+.editing-row input:focus {
+  outline: none;
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 3px rgba(100, 181, 246, 0.2);
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: var(--danger-red);
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.success-message {
+  background-color: #e8f5e9;
+  color: var(--success-green);
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.indicators-table input, 
+.indicators-table select {
+  font-size: 13px;
+  padding: 6px 8px;
+  min-height: 40px;
+}
+
+.indicators-table input:focus,
+.indicators-table select:focus {
+  outline: none;
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 2px rgba(100, 181, 246, 0.2);
+  background-color: #f5f9ff; /* Легкий фоновий колір для підсвічування активного поля */
+}
+
+/* Додаткові стилі для кращої доступності та UX на мобільних пристроях */
+.indicators-table input:active,
+.indicators-table select:active {
+  background-color: #f5f9ff;
+}
+
+.add-row-button:active,
+.delete-row-button:active {
+  transform: scale(0.97);
+}
+
+.indicators-table input[type="date"] {
+  width: 140px;
+  margin-right: 10px; /* Додаю відступ справа */
+}
+
+.indicators-table input[type="number"] {
+  width: 80px;
+  text-align: center;
+}
+
+.indicators-table input[type="text"] {
+  width: 130px;
+}
+
+.indicators-table td {
+  padding: 10px 12px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 1024px) {
+  .recording-indicators-container.sidebar-open {
+    padding-left: 0;
+  }
+  
+  .record-content {
+    margin: 15px 15px 30px;
+    padding: 20px;
+  }
+}
+
+/* Specific fix for smaller height screens */
+@media (max-height: 600px) {
+  .recording-indicators-container {
+    padding-top: 60px;
+  }
+  
+  .record-content {
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .record-content h2 {
+    margin-bottom: 15px;
+  }
+}
+
+/* Even smaller height screens */
+@media (max-height: 400px) {
+  .recording-indicators-container {
+    padding-top: 50px;
+  }
+  
+  .record-content {
+    margin-top: 5px;
+    padding-top: 10px;
+  }
+  
+  .table-container {
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .recording-indicators-container {
+    padding-top: 70px; /* Match the top-bar height on tablets */
+  }
+
+  .record-content {
+    padding: 20px 15px;
+    margin-top: 0; /* Remove margin as we now use padding-top on container */
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .add-row-button,
+  .add-record-button {
+    width: 100%;
+    padding: 15px;
+    min-height: 44px;
+  }
+  
+  .indicators-table {
+    min-width: 1400px; /* Збільшуємо мінімальну ширину для запобігання стисканню */
+  }
+  
+  .indicators-table th, 
+  .indicators-table td {
+    padding: 10px 8px; /* Зменшуємо паддінг для економії місця */
+  }
+  
+  .info-section {
+    padding: 15px;
+  }
+  
+  .info-section h3 {
+    font-size: 1.2rem;
+  }
+  
+  .info-section p {
+    font-size: 0.9rem;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 15px 0;
+    padding-bottom: 5px;
+  }
+  
+  /* Встановлюємо фіксовану ширину для кожного стовпця таблиці */
+  .indicators-table th:nth-child(1),  
+  .indicators-table td:nth-child(1) {  /* Date column */
+    width: 130px;
+    min-width: 130px;
+  }
+  
+  .indicators-table th:nth-child(2),
+  .indicators-table td:nth-child(2),
+  .indicators-table th:nth-child(3),
+  .indicators-table td:nth-child(3) {  /* FEV1 and FVC columns */
+    width: 90px;
+    min-width: 90px;
+  }
+  
+  .indicators-table th:nth-child(4),
+  .indicators-table td:nth-child(4),
+  .indicators-table th:nth-child(5),
+  .indicators-table td:nth-child(5),
+  .indicators-table th:nth-child(6),
+  .indicators-table td:nth-child(6) {  /* PEF, Respiratory Rate, and Pulse columns */
+    width: 90px;
+    min-width: 90px;
+  }
+  
+  .indicators-table th:nth-child(7),
+  .indicators-table td:nth-child(7),
+  .indicators-table th:nth-child(8),
+  .indicators-table td:nth-child(8),
+  .indicators-table th:nth-child(9),
+  .indicators-table td:nth-child(9),
+  .indicators-table th:nth-child(10),
+  .indicators-table td:nth-child(10),
+  .indicators-table th:nth-child(11),
+  .indicators-table td:nth-child(11) {  /* Symptom columns */
+    width: 85px;
+    min-width: 85px;
+  }
+  
+  .indicators-table th:nth-child(12),
+  .indicators-table td:nth-child(12) {  /* Medicine column */
+    width: 130px;
+    min-width: 130px;
+  }
+  
+  .indicators-table th:nth-child(13),
+  .indicators-table td:nth-child(13) {  /* Actions column */
+    width: 80px;
+    min-width: 80px;
+  }
+  
+  .indicators-table input, 
+  .indicators-table select {
+    font-size: 13px;
+    padding: 6px 5px;
+    min-height: 36px;
+    width: 100% !important; /* Перевизначаємо для використання максимального простору */
+    box-sizing: border-box;
+  }
+  
+  /* Додаємо підказку для горизонтальної прокрутки на малих екранах */
+  .table-container::after {
+    content: '← Прокрутіть таблицю горизонтально →';
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    padding: 5px 0;
+    background-color: #f5f9ff;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #e1e1e1;
+  }
+}
+
+@media (max-width: 480px) {
+  .recording-indicators-container {
+    padding-top: 60px; /* Match the top-bar height on mobile */
+  }
+
+  .record-content {
+    padding: 15px 10px;
+    margin-top: 0; /* Remove margin as we now use padding-top on container */
+  }
+  
+  .indicators-table {
+    min-width: 1400px; /* Забезпечуємо, щоб таблиця не стискалася */
+  }
+  
+  .indicators-table th, 
+  .indicators-table td {
+    padding: 8px 5px; /* Ще трохи зменшуємо відступи */
+    font-size: 12px;
+  }
+  
+  .indicators-table input {
+    font-size: 12px; /* Зменшуємо розмір шрифту */
+    padding: 5px;
+    min-height: 36px;
+    border-radius: 4px;
+  }
+  
+  .indicators-table select {
+    font-size: 12px;
+    padding: 5px;
+    min-height: 36px;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .indicators-table input[type="date"] {
+    width: 100%;
+    min-width: 120px;
+  }
+  
+  .add-row-button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  
+  .info-section .instructions h4 {
+    font-size: 1rem;
+  }
+  
+  .info-section .instructions li {
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+  }
+  
+  .action-cell {
+    padding: 0 !important;
+    width: 40px !important;
+  }
+  
+  /* Зберігаємо чіткі ширини на маленьких екранах */
+  .indicators-table th:nth-child(1),  
+  .indicators-table td:nth-child(1) {  /* Date column */
+    width: 120px;
+    min-width: 120px;
+  }
+  
+  .indicators-table th:nth-child(12),  
+  .indicators-table td:nth-child(12) {  /* Medicine column */
+    width: 120px;
+    min-width: 120px;
+  }
+  
+  /* Всі інші колонки з числовими значеннями */
+  .indicators-table th:nth-child(2),
+  .indicators-table td:nth-child(2),
+  .indicators-table th:nth-child(3),
+  .indicators-table td:nth-child(3),
+  .indicators-table th:nth-child(4),
+  .indicators-table td:nth-child(4),
+  .indicators-table th:nth-child(5),
+  .indicators-table td:nth-child(5),
+  .indicators-table th:nth-child(6),
+  .indicators-table td:nth-child(6),
+  .indicators-table th:nth-child(7),
+  .indicators-table td:nth-child(7),
+  .indicators-table th:nth-child(8),
+  .indicators-table td:nth-child(8),
+  .indicators-table th:nth-child(9),
+  .indicators-table td:nth-child(9),
+  .indicators-table th:nth-child(10),
+  .indicators-table td:nth-child(10),
+  .indicators-table th:nth-child(11),
+  .indicators-table td:nth-child(11) {
+    width: 70px;
+    min-width: 70px;
+  }
+}
+
+/* Додаємо стилі для полів тільки для перегляду */
+.view-only {
+  background-color: #f5f5f5;
+  color: #666;
+  cursor: not-allowed;
+  opacity: 0.8;
+  border-color: #ddd;
+}
+
+.view-only-message {
+  background-color: #e8f0fe;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 5px solid #2196f3;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Стиль для неактивної кнопки додавання рядка */
+.add-row-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background-color: #f0f0f0;
+  color: #999;
+  box-shadow: none;
+}
+
+/* Стилі для кнопки видалення рядка */
+.delete-row-button {
+  background-color: transparent;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 5px;
+  transition: all 0.2s;
+}
+
+.delete-row-button:hover {
+  color: #ff4d4f;
+  transform: scale(1.1);
+}
+
+.delete-row-button:disabled {
+  color: #ddd;
+  cursor: not-allowed;
+}
+
+.action-cell {
+  text-align: center;
+  width: 60px;
+  min-width: 60px;
+}
+
+/* Стилі для випадаючого списку з ліками */
+.indicators-table select {
+  width: 120px;
+  max-width: 120px;
+  white-space: normal;
+}
+
+.indicators-table select:focus {
+  outline: none;
+  border-color: #2196f3;
+  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+}
+
+.indicators-table select.view-only {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Стиль для опцій списку */
+.indicators-table select option {
+  padding: 8px;
+}
+
+/* Стилі для порожніх даних */
+.indicators-table tr:first-child td {
+  padding: 12px 8px;
+}
+
+/* Info section styles */
+.info-section {
+  background-color: #f3f9ff;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-blue);
+  box-shadow: 0 2px 8px rgba(100, 181, 246, 0.15);
+}
+
+.info-section h3 {
+  color: var(--dark-blue);
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.info-section p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.info-section .instructions {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+  margin: 15px 0;
+  border: 1px solid #e3f2fd;
+}
+
+.info-section .instructions h4 {
+  color: var(--dark-blue);
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.info-section .instructions ol {
+  padding-left: 25px;
+  margin-bottom: 0;
+}
+
+.info-section .instructions li {
+  margin-bottom: 8px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.info-section .note {
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+  padding: 10px;
+  background-color: rgba(255, 255, 220, 0.5);
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+/* Додаємо специфічні ширини для різних стовпців */
+.indicators-table th:nth-child(1) {  /* Date column */
+  width: 160px;
+  min-width: 160px;
+}
+
+.indicators-table th:nth-child(12) {  /* Medicine column */
+  width: 150px;
+  min-width: 150px;
+}
+
+/* Specific fixes for 1024x600 and 912x368 screen sizes */
+@media (max-width: 1024px) and (max-height: 600px),
+       (max-width: 912px) and (max-height: 368px) {
+  .table-container {
+    margin: 0.5rem 0;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .indicators-table {
+    min-width: 900px;
+  }
+  
+  .record-content {
+    padding: 15px;
+    margin-top: 5px;
+  }
+}
